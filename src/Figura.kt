@@ -1,7 +1,7 @@
 abstract class Figura(val nombre: String, val color: String) {
 
 
-    protected abstract fun area(): Double
+    abstract fun area(): Double
 
-    protected abstract fun perimetro(): Double
+    abstract fun perimetro(): Double
 }
